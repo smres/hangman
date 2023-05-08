@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   display: grid;
-  grid-template-rows: 6em auto 300px 6rem 2rem;
+  grid-template-rows: 6em 40px auto 300px 4rem 2rem;
   align-content: flex-start;
   height: 100%;
   text-align: center;
@@ -22,6 +22,26 @@ body {
 
 h1 {
   text-align: center;
+}
+
+div#restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(0, 4, 255);
+  font-family: "Comic Sans MS", sans-serif;
+  display: none;
+  height: 100%;
+  width: 20rem;
+  background-color: antiquewhite;
+  outline: none;
+  border-radius: 2rem;
+  border: 2px solid #e0e0e0;
 }
 
 #letters {
